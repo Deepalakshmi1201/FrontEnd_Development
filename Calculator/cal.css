@@ -1,0 +1,36 @@
+
+.container{
+    border: 2px solid black;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    background-color: #0a7a7a;
+    
+}
+.label input{
+    border-radius: 8px;
+    background-color:  #C4DBE0;
+    font-size: large;
+    text-decoration: solid;
+}
+input{
+    width: 283px;
+    height: 40px;
+    text-align: end;
+    font-size: medium;
+    
+}
+button{
+    border-radius: 8px;
+    width: 70px;
+    height:70px;  
+    background-color: #C4DBE0;
+    font-size: large;
+    text-decoration: solid;
+} 
+
+
+
