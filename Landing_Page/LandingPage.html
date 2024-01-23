@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LandingPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Pizza House</title>
+</head>
+<body class="img-fluid" id="bd">
+    <!-- navigation tag  -->
+    <img src="https://icons.iconarchive.com/icons/iconarchive/fat-sugar-food/128/Pizza-icon.png" width="60" height="60" class="nav-img">
+    <nav class="navbar">
+        <div class="logo">Pizza House</div>
+        <div class="nav-title">
+            <li > <a href="#home">Home</a> </li>
+            <li > <a href="#newoffers">Offers</a> </li>  
+            <li> <a href="#categories">Categories</a> </li>
+            <li> <a href="#myorders"> My Orders</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+        </div> 
+    </nav>
+    
+    <section class="thumbs">
+        <ul>
+            <div id="circle"></div>
+            <img src="Images/peppericon.jpg" id="img">
+            <div id="content">
+                <h2 id="content-head">Pepperoni Pizza</h2>
+                <p id="content-para">Pepperoni pizza is a type of pizza <br> topped primarily with pepperonia, topping of <br> tomato sauce and melted cheese,<br> mostly mozzarella.</p>
+            </div>
+            <div class="box">
+            <div  onclick="first()">
+                <li class="li1">
+                    <img src="Images/chicken-barbeque-s.png">
+                </li>
+            </div>
+            <div onclick="second()">
+                <li class="li2" >
+                    <img src="Images/chicken-pizza-s.png">
+                </li>
+            </div>
+            <div  onclick="third()">
+                <li class="li3">
+                    <img src="Images/corn-s.png" alt="">
+                </li>
+            </div>
+            <div onclick="fourth()">
+                <li class="li4">
+                    <img src="Images/marg-s.png" alt="">
+                </li>
+            </div>  
+        </div> 
+        </ul>
+    </section>
+    <div class="icon">
+        <i class="fa-brands fa-square-instagram fa-2xl" style="color: #00060f;" id="i1"></i>
+        <i class="fa-brands fa-google-play fa-2xl" style="color: #00060f;" id="i2"></i>
+        <i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #000000;" id="i3"></i>
+    </div>
+  
+    <script>
+        function first(){
+            document.getElementById("bd").style.backgroundImage="url(Images/side-2.png)";
+            document.getElementById("circle").style.backgroundColor="#F4D87C";
+            document.getElementById("img");
+            img.src='Images/chiken barbeque.jpg';
+            document.getElementById("content-head").innerHTML="Pepper Barbecue Chicken"
+            document.getElementById("content-para").innerHTML=" The best item that would be the <br> combination of the juicy chicken and the softness              <br>of the cheese along with the spice of the <br> barbecue leaves with saucy and tangy flavor."
+        }
+        function second(){
+            document.getElementById("bd").style.backgroundImage="url(Images/side-3.png)";
+            document.getElementById("circle").style.backgroundColor="#E4846C";
+            document.getElementById("img");
+            img.src='Images/chicken-pizza.jpg';
+            document.getElementById("content-head").innerHTML="Chicken Golden Delight"
+            document.getElementById("content-para").innerHTML=" The use of fresh and tender barbeque <br> chicken with golden corn are the main <br> toppings in a chicken golden delight pizza."
+        }
+        function third(){
+            document.getElementById("bd").style.backgroundImage="url(Images/side-4.png)";
+            document.getElementById("circle").style.backgroundColor="#E49C9C";
+            document.getElementById("img");
+            img.src='Images/golden cheese corn.png';
+            document.getElementById("content-head").innerHTML="Golden Corn Pizza "
+            document.getElementById("content-para").innerHTML="pizza perfectly baked with fresh dough <br> and topped with crunchy sweetcorn and tangy <br> sauce, along with melting cheese that  <br> resulting sweet corn pizza. "
+        }
+        function fourth(){
+            document.getElementById("bd").style.backgroundImage="url(Images/side-5.png)";
+            document.getElementById("circle").style.backgroundColor="#FCB464";
+            document.getElementById("img");
+            img.src='Images/marg.jpg';
+            document.getElementById("content-head").innerHTML="Margherita Pizza"
+            document.getElementById("content-para").innerHTML=" The Margherita pizza is one of Pizza <br> House’s special pizzas created exclusively for <br> cheese lovers. Made using 100% genuine <br> mozzarella cheese, and  secret herbs."
+        }
+     
+    </script>
+    <script src="https://kit.fontawesome.com/a4f4628a67.js" crossorigin="anonymous"></script>
+</body>
+</html>

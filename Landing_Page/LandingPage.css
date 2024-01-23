@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat' ,sans-serif;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title li{
+    display: inline-block; 
+    padding: 40px;  
+}
+.logo{
+    padding: 40px 0 0  100px; 
+    font-weight: bolder;
+    font-size: x-large;
+}
+.nav-img{
+position: absolute;
+top: 20px;
+left: 30px;
+}
+
+a{
+    color: black;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+#bd{
+    background-image: url(Images/side-1.png);
+    background-repeat: no-repeat;
+    background-color: #d0db97;
+
+    
+}
+
+a:hover{
+    border-radius: 30px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #F4D87C, #E4846C);
+}
+.thumbs .li1{
+    position: absolute;  
+    top: 58%;
+    left: 5%; 
+}
+.thumbs .li2{
+    position: absolute; 
+    top: 58%; 
+    left: 9%;
+}
+.thumbs .li3{
+    position: absolute; 
+    left: 13%;
+    top: 58%; 
+} 
+.thumbs .li4{
+    position: absolute; 
+   left: 17%;
+   top: 58%;
+   
+}
+.thumbs li:hover{
+    transform: translateY(-15px);
+}
+#circle{
+    position:absolute;
+    background-color: #FC7C23;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    clip-path: circle(100.1669449081803vh at right 58.565153733528554vw);
+}
+#img{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    width: 400px;
+    height: 300px;
+}
+#content {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+}
+#content p{
+ 
+    line-height: 40px;
+    font-size: large;
+}
+#content h2{
+  padding-bottom: 20px;
+}
+#i1{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    cursor: pointer;
+}
+#i2{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    cursor: pointer;
+}
+#i3{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+}
+@media (max-width:1120px) { 
+    #circle{
+        position:absolute;
+        background-color: #FC7C23;
+        height: 80vh;
+        width: 80vw;
+        top: 20%;
+        left: 30%;
+        clip-path: circle(100.1669449081803vh at right 58.565153733528554vw);
+    }
+    .nav-title li{
+        display: inline-block; 
+        padding-top: 40px;  
+        padding-left: 5px;
+    }
+    .thumbs .li1{
+        position: absolute;  
+        top: 60%;
+        left: 8%; 
+    }
+    .thumbs .li2{
+        position: absolute; 
+        top: 60%; 
+        left: 13%;
+    }
+    .thumbs .li3{
+        position: absolute; 
+        left: 18%;
+        top: 60%; 
+    } 
+    .thumbs .li4{
+        position: absolute; 
+       left: 23%;
+       top: 60%;
+    }
+    #img{
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        width: 400px;
+        height: 300px;
+    }
+   
+ }
